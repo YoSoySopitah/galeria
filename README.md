@@ -1,0 +1,2 @@
+# galeria
+practica de galeria
