@@ -1,0 +1,121 @@
+
+body{
+background-color: #FFFFF0;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 20px;    
+}
+
+.container h1{
+    display: flex;
+    align-items: end;
+    
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    flex-wrap: wrap;
+    display: flex; 
+    margin-top: -25px;
+    justify-content: end;
+
+}
+
+.container hr{
+    border-color: #FF7F50;
+    border-width: 1px;
+}
+
+.container p{
+    width: 50%;
+    margin: 50px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+.lorem{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.lorem img{
+    margin: 50px;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 1px solid #808000;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #808000;
+}
+
+
+.galeria img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.galeria img{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px #808000;
+}
+
+.autor{
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+flex-flow: row;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.autorcontainer{
+    padding: 5px;
+    border: 1px solid #808000;
+    border-radius: 10px;
+    height: 370px;
+    width: 250px;
+    margin: 30px auto ;
+    box-shadow: 0 4px 8px #808000;
+    
+}
+
+.autor img{
+    border-radius: 50%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    color: #000080;
+}
+
+h1{
+    color: #000080;
+}
